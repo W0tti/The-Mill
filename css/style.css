@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: Proxima Bold;
+    src: url(../fonts/ProximaNova-Bold.woff);
+}
+
+@font-face {
+    font-family: Proxima Regular;
+    src: url(../fonts/ProximaNova-Regular.woff);
+}
+
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: url("../images/background.png") no-repeat;
+}
+
+.row {
+    padding: 2% 0;
+}
+
+.column {
+    padding: 1% 0;
+}
+
+footer {
+    padding: 20px 0 40px;
+    background: #373737;
+    color: #ffffff;
+    font-size: 0.75em;
+}
+
+.tagline h1 {
+    text-align: right;
+    color: #ffffff;
+    font-family: Lato;
+    line-height: 1em;
+}
+
+.video-title {
+    font-family: Proxima Bold;
+    font-size: 1.5em;
+}
+
+.video-text {
+    font-family: Proxima Regular;
+    font-size: 1em;
+    line-height: 0.8em;
+}
+
+#contact {
+    border: 1px solid #ffffff;
+    float: right;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#contact:hover {
+    background: #ffffff;
+    color: #373737;
+}
