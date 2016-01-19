@@ -8,6 +8,25 @@
         <meta name="description" content="A one page responsive site for The Mill">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/foundation.css">
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var videoID = 'videoclip';
+                var sourceID = 'mp4video';
+                var newmp4 = 'videos/TT_Sequence.mp4';
+                var newposter = 'media/video-poster2.jpg';
+
+                $('#videolink1').click(function(event) {
+                    $('#'+videoID).get(0).pause();
+                    $('#'+sourceID).attr('src', newmp4);
+                    $('#'+videoID).get(0).load();
+                     //$('#'+videoID).attr('poster', newposter); //Change video poster
+                });
+            });
+</script>
     </head>
     <body>
         
@@ -31,7 +50,10 @@
 
             <div class="row">
                 <div class="large-12 column">
-                    <img src="images/Mill-VFX.jpg">
+                    <video id="videoclip" controls="controls" poster="images/Mill-VFX.jpg" title="Video title" width="960">
+                        <source id="mp4video" src="videos/Porsche_Sequence.mp4" type="video/mp4" ty  />
+                    </video>
+                    <p><a href="#" id="videolink1">Change video</a></p>
                 </div>
             </div>
 
