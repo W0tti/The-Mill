@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* --- FONTS -- */
+
 @font-face {
     font-family: Lato;
     src: url(../fonts/Lato-Black.ttf);
@@ -15,7 +17,9 @@
     src: url(../fonts/ProximaNova-Regular.woff);
 }
 
+/* --- END FONTS --- */
 
+/* --- MAIN --- */
 .content {
     max-width: 1200px;
     margin: 0 auto;
@@ -29,6 +33,8 @@
 .column {
     padding: 1% 0;
 }
+
+/* --- END MAIN --- */
 
 footer {
     padding: 20px 0 40px;
@@ -44,6 +50,10 @@ footer {
     line-height: 1em;
 }
 
+.column.main-video {
+    padding: 0;
+}
+
 .video-title {
     font-family: Proxima Bold;
     font-size: 1.5em;
@@ -55,6 +65,52 @@ footer {
     line-height: 0.8em;
 }
 
+.video2, .video3, .video4 {
+    display: none;
+}
+
+.video-row-2, .video-row-3, .video-row-4 {
+    display: none;
+}
+
+.js-video {
+    height: 0;
+    padding-top: 25px;
+    padding-bottom: 56.5%;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.js-video.widescreen {
+    padding-bottom: 56.34%;
+}
+ 
+.js-video.vimeo {
+    padding-top: 0;
+}
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.column.thumbs {
+    padding: 0;
+    text-align: center;
+}
+
+.column.thumbs img {
+    cursor: pointer;
+}
+
+a.thumb-link {
+    display: inline-block;
+}
+
 #contact {
     border: 1px solid #ffffff;
     float: right;
@@ -63,7 +119,46 @@ footer {
     cursor: pointer;
 }
 
-#contact:hover {
+#contact-form {
+    display: none;
+}
+
+.footerButton {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#contact:hover, .footerButton:hover {
     background: #ffffff;
     color: #373737;
+}
+
+label.error {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+input.error {
+    margin-bottom: 0;
+}
+
+input[type=text], input[type=email] {
+    border: none;
+    line-height: 1.2em;
+    font-size: 1em;
+}
+
+::-webkit-input-placeholder {
+    font-size: 1em;
+}
+
+::-moz-placeholder {
+    font-size: 0.8em;
+}
+
+:-ms-input-placeholder {
+    font-size: 0.8em;
 }
