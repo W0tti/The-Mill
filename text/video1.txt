@@ -1,0 +1,24 @@
+<div class="large-12 column">
+                        <div class="video-title video-title-1">The Mill 2015 VFX Reel</div>
+                    </div>
+                    <div class="large-6 column">
+                        <div class="video-text video-text-1">
+                            <p>
+                                Mill Visual Effects combine talent with technology, artistry with rigor, the familiar with the fantastic. Our work can be inspiring or invisible, but always unforgettable.
+                            </p>
+                            <p>
+            From another year of top Super Bowl spots and award-winning projects to launching our new website and joining the Technicolor family, 2015 has been another fantastic year across The Mill. We’re taking a look back at many of the big projects, wins and news that made our 2015 great. We've also included the reels, title sequences and behind the scenes films created this year.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="large-6 column">
+                        <div class="video-text video-text-1">
+                            <p>
+                                The year was filled with award-winning projects and recognition for the breadth of quality work being produced across studios. We were honoured to receive Post-Production Company of the Year at the LIAs, while also topping the annual Televisual Facilities 50 survey for an unprecedented seven years in row. 
+                            </p>
+                            <p>
+            The Mill in London also won Top Rated and Top Used Post Production Company of the Year in the 2015 Televisual Commercials 30, with four Mill artists included in Top Operators: Andrew Wood (Barnsley), Creative Director; Seamus O'Kane, Head of Colour; Dave 'Luddy' Ludlam, Colourist; and Matt Osborne, Colourist.
+                            </p>
+                        </div>
+                    </div>

@@ -1395,4 +1395,8 @@ if ( $.ajaxPrefilter ) {
 	};
 }
 
+<<<<<<< HEAD
 }));
+=======
+}));
+>>>>>>> origin/master

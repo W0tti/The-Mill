@@ -36,19 +36,14 @@
 
 /* --- END MAIN --- */
 
-footer {
-    padding: 20px 0 40px;
-    background: #373737;
-    color: #ffffff;
-    font-size: 0.75em;
-}
-
 .tagline h1 {
     text-align: right;
     color: #ffffff;
     font-family: Lato;
     line-height: 1em;
 }
+
+/* --- VIDEO --- */
 
 .column.main-video {
     padding: 0;
@@ -98,6 +93,11 @@ footer {
     position: absolute;
 }
 
+.overlay {
+    background: #999999;
+    opacity: 0.5;
+}
+
 .column.thumbs {
     padding: 0;
     text-align: center;
@@ -109,6 +109,49 @@ footer {
 
 a.thumb-link {
     display: inline-block;
+    position: relative;
+}
+
+.thumb-overlay {
+    opacity: 0;
+    background: #333333;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.thumb-overlay img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 44px;
+    height: 44px;
+    margin-top: -22px;
+    margin-left: -22px;
+}
+
+a.thumb-link:hover .thumb-overlay {
+    opacity: 0.6;
+}
+
+/* --- END VIDEO --- */
+
+/* --- FOOTER --- */
+
+footer {
+    padding: 20px 0 40px;
+    background: #373737;
+    color: #ffffff;
+    font-size: 0.75em;
+}
+
+.footerButton {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: transparent;
 }
 
 #contact {
@@ -123,17 +166,17 @@ a.thumb-link {
     display: none;
 }
 
-.footerButton {
-    border: 1px solid #ffffff;
-    padding: 10px;
-    border-radius: 2px;
-    cursor: pointer;
-    background-color: transparent;
-}
-
 #contact:hover, .footerButton:hover {
     background: #ffffff;
     color: #373737;
+}
+
+.personal-touch {
+    color: #ffffff;
+}
+
+.personal-touch:hover {
+    color: #ffffff;
 }
 
 label.error {
@@ -162,3 +205,9 @@ input[type=text], input[type=email] {
 :-ms-input-placeholder {
     font-size: 0.8em;
 }
+
+<<<<<<< HEAD
+/* --- END FOOTER --- */
+=======
+/* --- END FOOTER --- */
+>>>>>>> origin/master

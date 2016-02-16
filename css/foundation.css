@@ -48,6 +48,11 @@ section,
 summary {
   display: block; }
 
+footer .column {
+    text-align: inherit;
+}
+
+
 /**
    * 1. Correct `inline-block` display not defined in IE 8/9.
    * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
@@ -937,6 +942,8 @@ button {
     margin-right: 0; } }
 
 @media screen and (min-width: 64em) {
+    
+    
     
   .large-1 {
     width: 8.33333%; }

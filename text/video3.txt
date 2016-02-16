@@ -1,0 +1,21 @@
+<div class="large-12 column">
+                        <div class="video-title video-title-3">Google ATAP ‘HELP’</div>
+                    </div>
+                    <div class="large-6 column">
+                        <div class="video-text video-text-3">
+                            <p>
+                                ‘HELP’ combines live action and CG in a 360 environment, creating an action-driven story with cinematic quality visual effects. The team worked to solve the technical and creative challenges involved with immersive and VR filmmaking, developing a custom 360 camera rig solution with the ability to follow the action.
+                            </p>
+                            <p>
+            Shooting 360 live action footage has generally been a challenge for directors, with most methods providing images from multiple cameras with an overlapping wide-angle field of view. The Mill took on the challenge to build a comprehensive onset/dailies type solution that was intuitive and inspired confidence on set.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="large-6 column">
+                        <div class="video-text video-text-3">
+                            <p>
+                                After numerous tests, experimentation and R&D, The Mill developed ‘Mill Stitch’ (TM pending), a proprietary software solution that takes images from multiple cameras and then stitches the output into a continuous 360 degree view. Mill Stitch proved invaluable to the process, bringing real-time stitching, interactive controls, and record/review to a cinematic VR production pipeline. Mill Stitch was even featured at Google I/O sandbox so patrons could experience first hand what it would be like directing a VR film.
+                            </p>
+                        </div>
+                    </div>
