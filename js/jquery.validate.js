@@ -1394,13 +1394,3 @@ if ( $.ajaxPrefilter ) {
 		return ajax.apply(this, arguments);
 	};
 }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-}));
-=======
-}));
->>>>>>> origin/master
-=======
-}));
->>>>>>> origin/master
