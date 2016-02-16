@@ -1396,7 +1396,11 @@ if ( $.ajaxPrefilter ) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 }));
+=======
+}));
+>>>>>>> origin/master
 =======
 }));
 >>>>>>> origin/master
